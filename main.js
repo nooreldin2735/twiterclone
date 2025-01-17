@@ -57,6 +57,10 @@ async function showData(data) {
         }
         await delay(60000);
     }
+    document.removeChild(Div);
+    document.removeChild(Ptag);
+    document.removeChild(imagetag);
+    document.removeChild(Htapg);
     GetData();
 }
 const div_style = `     width: 300px; /* Adjust as needed */
