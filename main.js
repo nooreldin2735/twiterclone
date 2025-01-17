@@ -24,6 +24,7 @@ async function showData(data) {
     let Ptag = document.createElement('p');
     let Htapg = document.createElement('h1');
     let imagetag = document.createElement('img');
+    Atag.target="blank";
     Atag.style.cssText = "text-decoration: none; color:black; ";
     Div.style.cssText = div_style;
     imagetag.alt = "Loading";
@@ -56,6 +57,7 @@ async function showData(data) {
         }
         await delay(60000);
     }
+    GetData();
 }
 const div_style = `     width: 300px; /* Adjust as needed */
       padding: 20px;
